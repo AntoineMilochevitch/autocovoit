@@ -132,6 +132,8 @@
 					/>
 					<button
 						type="submit"
+						aria-label="Envoyer le message"
+						title="Envoyer le message"
 						class="h-12 w-12 flex items-center justify-center bg-black text-white rounded-xl active:scale-95 transition-all hover:bg-gray-800 disabled:opacity-50"
 						disabled={!newMessage.trim()}
 					>
