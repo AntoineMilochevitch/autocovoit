@@ -9,12 +9,6 @@
 </script>
 
 <div class="flex min-h-[calc(100vh-140px)] w-full flex-col items-center justify-center gap-6 py-4 text-center overflow-x-hidden">
-	<div class="relative">
-		<div class="absolute -inset-4 animate-pulse rounded-full bg-orange-orange/10 ring-1 ring-orange-orange/20 sm:-inset-6"></div>
-		<div class="relative flex h-24 w-24 items-center justify-center rounded-full bg-white shadow-md ring-2 ring-orange-orange sm:h-28 sm:w-28">
-			<span class="text-4xl sm:text-5xl">📍</span>
-		</div>
-	</div>
 
 	<div class="max-w-2xl space-y-3 px-6" in:fade={{ delay: 200 }}>
 		<h1 class="text-2xl font-black leading-tight text-gray-900 sm:text-3xl md:text-4xl lg:text-5xl">
